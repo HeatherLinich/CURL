@@ -67,8 +67,8 @@ function initSigma(config) {
     	graphProps=config.sigma.graphProperties;
     else
     	graphProps={
-        minNodeSize: 2,
-        maxNodeSize: 9,
+        minNodeSize: 1,
+        maxNodeSize: 7,
         minEdgeSize: 0.2,
         maxEdgeSize: 0.5
     	};
@@ -98,7 +98,7 @@ function initSigma(config) {
 				 // alert(JSON.stringify(b.attr.attributes[5].val));
 				// alert(b.x);
 				a.clusters[b.color] || (a.clusters[b.color] = []);
-				a.clusters[b.color].push(b.id);//KH: push id not label
+				a.clusters[b.color].push(b.id);//SAH: push id not label
 			}
 		
 		);
@@ -276,22 +276,10 @@ function configSigmaElements(config) {
     }
     $GP.bg = $(sigInst._core.domElements.bg);
     $GP.bg2 = $(sigInst._core.domElements.bg2);
-    
-    var a = [], b;
-
-		for (b in sigInst.clusters) {
-                    if(b == "rgb(255,0,0)"){
-                        a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Project ' + "" + ' (' + sigInst.clusters[b].length + ' members)</a></div>');}
-                    if(b == "rgb(255,0,255)")
-                        a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Publication ' + "" + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-                    if(b == "rgb(255,200,0)")
-                        a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Organization ' + ""+ ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-                    if(b == "rgb(0,0,204)")
-                        a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> People ' + ""  + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-                }
-    
-    a.sort();
-    //console.log("what is a " + JSON.stringify(a))
+    var a = [],
+        b,x=1;
+		for (b in sigInst.clusters) a.push('<div style="line-height:12px"><a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Group ' + (x++) + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
+    //a.sort();
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
@@ -365,7 +353,7 @@ function Search(a) {
         this.state.removeClass("searching");
         this.results.hide();
         this.searching = !1;
-        this.input.val("");//KH -- let's erase string when we close
+        this.input.val("");//SAH -- let's erase string when we close
         nodeNormal()
     };
     this.clean = function () {
@@ -394,9 +382,7 @@ function Search(a) {
             });
             c.length ? (b = !0, nodeActive(c[0].id)) : b = showCluster(a);
             a = ["<b>Search Results: </b>"];
-            if (1 < c.length) 
-                for (var d = 0, h = c.length; d < h; d++) 
-                    a.push('<a href="#' + c[d].name + '" onclick="nodeActive(\'' + c[d].id + "')\">" + c[d].name + "</a>");
+            if (1 < c.length) for (var d = 0, h = c.length; d < h; d++) a.push('<a href="#' + c[d].name + '" onclick="nodeActive(\'' + c[d].id + "')\">" + c[d].name + "</a>");
             0 == c.length && !b && a.push("<i>No results found.</i>");
             1 < a.length && this.results.html(a.join(""));
            }
@@ -426,7 +412,7 @@ function Cluster(a) {
     };
     this.hide = function () {
         this.display = !1;
-        this.list.show();
+        this.list.hide();
         this.select.removeClass("close")
     };
     this.show = function () {
@@ -460,7 +446,7 @@ function nodeActive(a) {
     sigInst.detail = !0;
     var b = sigInst._core.graph.nodesIndex[a];
     showGroups(!1);
-	var outgoing={},incoming={},mutual={};//KH
+	var outgoing={},incoming={},mutual={};//SAH
     sigInst.iterEdges(function (b) {
         b.attr.lineWidth = !1;
         b.hidden = !0;
@@ -470,8 +456,8 @@ function nodeActive(a) {
             colour: b.color
         };
         
-   	   if (a==b.source) outgoing[b.target]=n;		//KH
-	   else if (a==b.target) incoming[b.source]=n;		//KH
+   	   if (a==b.source) outgoing[b.target]=n;		//SAH
+	   else if (a==b.target) incoming[b.source]=n;		//SAH
        if (a == b.source || a == b.target) sigInst.neighbors[a == b.target ? b.source : b.target] = n;
        b.hidden = !1, b.attr.color = "rgba(0, 0, 0, 1)";
     });
@@ -483,7 +469,7 @@ function nodeActive(a) {
     });
     
     if (groupByDirection) {
-		//Compute intersection for mutual and remove these from incoming/outgoing
+		//SAH - Compute intersection for mutual and remove these from incoming/outgoing
 		for (e in outgoing) {
 			//name=outgoing[e];
 			if (e in incoming) {
@@ -495,14 +481,6 @@ function nodeActive(a) {
     }
     
     var createList=function(c) {
-        var f_people = [];
-        var f_pub = [];
-        var f_org = [];
-        var f_project=[];
-        var f1 = [];
-        var f2 = [];
-        var f3 = [];
-        var f4 = [];
         var f = [];
     	var e = [],
       	 	 //c = sigInst.neighbors,
@@ -531,73 +509,16 @@ function nodeActive(a) {
     d = "";
 		for (g in e) {
 			c = e[g];
-                        console.log("what color is c" + JSON.stringify(c))
-                        console.log("what color is g" + JSON.stringify(g))
-                        console.log("what color is e" + JSON.stringify(e))
-
-			if (c.colour == "rgb(255,200,0)") {//project
-                            h1 = c.name;
-				console.log("what color is pub" + JSON.stringify(c.color))
+                                   console.log("this is c: " + JSON.stringify(c.name))
+                                   console.log("this is group: " + JSON.stringify(c.colour))
+                                    //console.log("this is a label " + label)
+			if (c.colour != d) {
+				d = c.colour;
 				f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
-                                f_project.push('<li class="membership"><a href="#' + h +
-                                        '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
-                                        c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + h1 + "</a></li>");
-                                f1 = f_project;
 			}
-                        if (c.colour == "rgb(204,76,76)") {//blue=people
-                            h1 = c.name;
-				//d = c.colour;
-				f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
-                                f_people.push('<li class="membership"><a href="#' + h +
-                                        '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
-                                        c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + h1 + "</a></li>");
-                                f2 = f_people;
-                            }
-                            
-                        if (c.colour == "rgb(255,0,127)") { //publication
-                            h1 = c.name;
-				//d = c.colour;
-				f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
-                                f_pub.push('<li class="membership"><a href="#' + h +
-                                        '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
-                                        c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + h1 + "</a></li>");
-                                f3 = f_pub;
-			}
-                        
-                        if (c.colour == "rgb(255,100,0)") { //yellow = organization
-                            h1 = c.name;
-				//d = c.colour;
-				f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
-                                f_org.push('<li class="membership"><a href="#' + h +
-                                        '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
-                                        c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + h1 + "</a></li>");
-                                f4 = f_org;
-			}
-
-                f = f1.concat("<h2>People</h2>", f2, "<h2>Publications</h2>", f3, "<h2>Organizations</h2>", f4);
-
-                        
-                       /* else {
-                            console.log("testing")
-                            h2 = c.name;
-				//d = c.colour;
-				//f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
-                                f_pub.push('<li class="membership"><a href="#' + h +
-                                        '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
-                                        c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + h2 + "</a></li>");
-                                
-                                console.log("what is f_publication: " + f_pub)
-                                f2 = f_pub;
-                                
-			}*/
-
-                        
-
-                    }
+			f.push('<li class="membership"><a href="#' + c.name + '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + c.id + '\'])\" onclick=\"nodeActive(\'' + c.id + '\')" onmouseout="sigInst.refresh()">' + c.name + "</a></li>");
+		}
 		return f;
-
-                
-
 	}
 	
 	/*console.log("mutual:");
@@ -626,7 +547,7 @@ function nodeActive(a) {
 	} else {
 		f=f.concat(createList(sigInst.neighbors));
 	}
-	//b is object of active node
+	//b is object of active node -- SAH
     b.hidden = !1;
     b.attr.color = b.color;
     b.attr.lineWidth = 6;
@@ -695,7 +616,7 @@ function showCluster(a) {
         }
         sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
-        //$GP.info_name.html("<b>" + a + "</b>");
+        $GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
         $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
