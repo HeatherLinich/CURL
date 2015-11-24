@@ -100,6 +100,7 @@ function initSigma(config) {
 				// alert(b.x);
 				a.clusters[b.color] || (a.clusters[b.color] = []);
 				a.clusters[b.color].push(b.id);//KH: push id not label
+                                //console.log("what is 113 " + JSON.stringify(b.color))
 			}
 		
 		);
@@ -280,7 +281,7 @@ function configSigmaElements(config) {
     
     var a = [], b;  
 
-
+    //console.log("what are colorNodes: " + a.color)
 
 		for (b in sigInst.clusters) {
                     if(b == "rgb(255,0,0)"){
@@ -291,13 +292,11 @@ function configSigmaElements(config) {
                         a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> Organization ' + ""+ ' (' + sigInst.clusters[b].length + ' members)</a></div>');
                     if(b == "rgb(0,0,204)")
                         a.push('<div style="line-height:12px">\n\<a href="#' + b + '"><div style="width:40px;height:12px;border:1px solid #fff;background:' + b + ';display:inline-block"></div> People ' + ""  + ' (' + sigInst.clusters[b].length + ' members)</a></div>');
-
                 }
 
     
     a.sort();
-
-
+    //console.log("what is a " + JSON.stringify(a))
     $GP.cluster.content(a.join(""));
     b = {
         minWidth: 400,
@@ -332,10 +331,8 @@ function configSigmaElements(config) {
         !0 == $GP.showgroup ? showGroups(!1) : showGroups(!0)
     });
     a = window.location.hash.substr(1);
-
+            //console.log("what is 343: " + JSON.stringify((a)));
     if (0 < a.length) switch (a) {
-        
-
     case "Groups":
         showGroups(!0);
         break;
@@ -345,12 +342,12 @@ function configSigmaElements(config) {
     default:
         $GP.search.exactMatch = !0, $GP.search.search(a)
 		$GP.search.clean();
-
     }
 
 }
 
 function Search(a) {
+    //console.log("what is 400 " + JSON.stringify(a))
     this.input = a.find("input[name=search]");
     this.state = a.find(".state");
     this.results = a.find(".results");
@@ -401,7 +398,6 @@ function Search(a) {
                 })
 
             });
-
             c.length ? (b = !0, nodeActive(c[0].id)) : b = showCluster(a);
             a = ["<b>Search Results: </b>"];
             if (1 < c.length) 
@@ -435,7 +431,6 @@ function Cluster(a) {
         this.list.html(a);
         this.list.find("a").click(function () {
             var a = $(this).attr("href").substr(1);
-            console.log("a: " + JSON.stringify(a))
             showCluster(a)
         })
     };
@@ -511,7 +506,7 @@ function nodeActive(a) {
 			}
 		}
     }
-
+    
     var createList=function(c) {
         var f_people = [];
         var f_pub = [];
@@ -531,7 +526,7 @@ function nodeActive(a) {
         d.hidden = !1;
         d.attr.lineWidth = !1;
         d.attr.color = c[g].colour;
-        //console.log("what is c here: " + JSON.stringify(d.color))
+        console.log("what is c here: " + JSON.stringify(d.color))
         a != g && e.push({
             id: g,
             name: d.label,
@@ -542,9 +537,9 @@ function nodeActive(a) {
 
         
     }
-
+            //console.log("what is c " + JSON.stringify(c))
     e.sort(function (a, b) {
-        console.log ("is sort being called?")
+
         var c = a.group.toLowerCase(),
             d = b.group.toLowerCase(),
             e = a.name.toLowerCase(),
@@ -553,15 +548,20 @@ function nodeActive(a) {
 
         return c != d ? c < d ? -1 : c > d ? 1 : 0 : e < f ? -1 : e > f ? 1 : 0
     });
-
     d = "";
+            //console.log("what is e " + JSON.stringify(e))
             
 		for (g in e) {
                     
 			c = e[g];
+                        //console.log("what color is c" + JSON.stringify(c))
+                        //console.log("what color is g" + JSON.stringify(g))
+                        console.trace("what is line 556 c" + JSON.stringify(c))
+                        //console.log("what is 549: " + JSON.stringify(b))
 			if (c.colour == "rgb(255,0,0)") {//project
                             
                             h1 = c.name;
+				//console.log("what color is pub" + JSON.stringify(c.color))
 				f.push('<li class="cf" rel="' + c.group + '"><div class=""></div><div class="">' + d + "</div></li>");
                                 f_project.push('<li class="membership"><a href="#' + h +
                                         '" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + 
@@ -650,7 +650,8 @@ function nodeActive(a) {
 	} else {
 		f=f.concat(createList(sigInst.neighbors));
 	}
-    //b is object of active node
+        console.log("what is 644: " + b.color)
+	//b is object of active node
     b.hidden = !1;
     b.attr.color = b.color;
     b.attr.lineWidth = 6;
@@ -690,7 +691,6 @@ function nodeActive(a) {
         // Image field for attribute pane
         $GP.info_data.html(e.join("<br/>"))
     }
-
     $GP.info_data.show();
     $GP.info_p.html("Connections:");
     $GP.info.animate({width:'show'},350);
@@ -702,48 +702,38 @@ function nodeActive(a) {
 
 function showCluster(a) {
     var b = sigInst.clusters[a];
-    //console.trace(b)
     var ff = [];
-
+    var ffsorted  = [];
+    var gg = [];
     if (b && 0 < b.length) {
         showGroups(!1);
         sigInst.detail = !0;
         b.sort();
-
         sigInst.iterEdges(function (a) {
             a.hidden = !1;
             a.attr.lineWidth = !1;
             a.attr.color = !1
         });
         sigInst.iterNodes(function (a) {
-            a.hidden = !0            
+            a.hidden = !0
         });
         for (var f = [], e = [], c = 0, g = b.length; c < g; c++) {
             var d = sigInst._core.graph.nodesIndex[b[c]];
             ff.push(d.label);
-            var h = ff.sort();            
+            !0 == d.hidden && (e.push(b[c]), d.hidden = !1, d.attr.lineWidth = !1, d.attr.color = d.color, f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))
+            console.log("what is h " + JSON.stringify(h)  )
         }
-        for(var index = 0, len = h.length; index < len; index++){
-            var check = h[index];
-            for (var index1 = 0, len1 = h.length; index1 < len1; index1++){
-                var d = sigInst._core.graph.nodesIndex[b[index1]];
-                if (check === d.label){
-                    !0 === d.hidden && (e.push(check), d.hidden = !1, d.attr.lineWidth = !1, d.attr.color = d.color, f.push('<li class="membership"><a href="#'+d.label+'" onmouseover="sigInst._core.plotter.drawHoverNode(sigInst._core.graph.nodesIndex[\'' + d.id + "'])\" onclick=\"nodeActive('" + d.id + '\')" onmouseout="sigInst.refresh()">' + d.label + "</a></li>"))                        
-                }
-            } 
-        }
-       
+        var h = ff.sort();
         
-//        sigInst.clusters[a] = e;
         
+        
+        sigInst.clusters[a] = e;
         sigInst.draw(2, 2, 2, 2);
         //$GP.info_name.html("<b>" + a + "</b>");
         $GP.info_data.hide();
-        $GP.info_p.html("Group Members:");        
+        $GP.info_p.html("Group Members:");
         $GP.info_link.find("ul").html(f.join(""));
-        
         $GP.info.animate({width:'show'},350);
-        
         $GP.search.clean();
 		$GP.cluster.hide();
         return !0

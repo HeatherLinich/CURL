@@ -314,9 +314,8 @@ padding: 1px 2px;
 display: block;
 cursor: pointer;
 text-decoration: none;
-width: 300px;
+width: 200px;
 color: #000;
-
 }
 
 #search .results a:hover {

@@ -1504,7 +1504,7 @@
         "id": "8",
         "attributes": {
             "Description": "4626 N Magnolia Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click here for additional information</a>"          
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click here for additional information</a>"          
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1516,7 +1516,7 @@
         "id": "19",
         "attributes": {
             "Description": "70 East Lake Street Suite 720 Chicago, IL 60601, USA",
-            "link" : "<a href='http://www.chicagohomeless.org/'>Chicago Coalition for the Homeless</a>"    
+            "link" : "<a href='http://www.chicagohomeless.org/' target='_blank'>Chicago Coalition for the Homeless</a>"    
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1528,7 +1528,7 @@
         "id": "100",
         "attributes": {
             "Description": " The longitudinal survey interviews adult clients who, when first interviewed, resided in three types of programs central to the Ten-Year Plan: emergency shelters, interim housing programs, and permanent supportive housing programs. The survey follows the progress of the interviewed clients over the course of a year. The current report uses data from all interview waves to consider questions related to changes in client outcomes, and other aspects of client trajectories, over time. It considers the relation between progress in housing stability and traits and circumstances of the clients.",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e257/1365543999553/Final%20Wave%20Report%208-31-11.pdf>pdf: Final Wave Survey Results</a>"  
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e257/1365543999553/Final%20Wave%20Report%208-31-11.pdf' target='_blank'>pdf: Final Wave Survey Results</a>"  
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -1551,8 +1551,7 @@
         "id": "84",
         "attributes": {
             "Description": "CURL and Catholic Charities developed a research partnership to evaluate Catholic Charities Homelessness Prevention Call Center. This relationship stemmed from previous research collaboration with Catholic Charities along with experience in evaluation research of call centers including the City of Chicago Domestic Violence Help Line. The Call Center is a Homelessness Prevention Initiative of the City of Chicago's 10-Year Plan to End Homelessness. The research team conducted a process evaluation of the Call Center's daily operations, the experience of callers through the Call Center system, the efficiency level of Call Center policies, and system best practices. This evaluation informed future Call Center planning and programming.",
-
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/evaluation-of-catholic-charities-homelessness-prevention-cal.html'>Evaluation of Catholic Charities</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/evaluation-of-catholic-charities-homelessness-prevention-cal.html' target='_blank'>Evaluation of Catholic Charities</a>"  
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -1598,7 +1597,7 @@
         "id": "80",
         "attributes": {
             "Description": "Chicago Housing to Health Partnership (CHHP), a program of the AIDS Foundation of Chicago, is an innovative housing first model for individuals who are homeless, have chronic medical conditions, and have been recently released from the hospital. CURL and CHHP produced a small quality assurance study of the CHHP case management system. For the study, researchers located and conducted 10 qualitative interviews with clients who CHHP staff had designated as 'non-engaged' due to their low number of contacts with case management. Findings from these interviews were combined with findings from administrative data and case management notes analyzed by AFC staff.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/connecting-fractured-lives-to-a-fragmented-system-a-process.html?rq\u003dfragmented'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/connecting-fractured-lives-to-a-fragmented-system-a-process.html?rq\u003dfragmented' target='_blank'>Click for additional information</a>"  
         },
         "color": "rgb(255,0,0)",
         "size": 30.0
@@ -1632,7 +1631,7 @@
         "id": "81",
         "attributes": {
             "Description": "200 West Jackson Blvd., Suite 2200 Chicago, IL 60606, USA",
-            "link" : "<a href='http://www.aidschicago.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.aidschicago.org/' target='_blank'>Click for additional information</a>"  
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1655,7 +1654,7 @@
         "id": "77",
         "attributes": {
             "Description": "1532 N. Sedgwick Ave. Chicago, IL 60610, USA",
-            "link" : "<a href='http://www.deborahsplace.org/home'>Click for additional information</a>"  
+            "link" : "<a href='http://www.deborahsplace.org/home' target='_blank'>Click for additional information</a>"  
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1667,7 +1666,7 @@
         "id": "88",
         "attributes": {
             "Description": "This report summarizes findings from the three qualitative components of the Evaluation of Chicago's Plan to End Homelessness conducted in the summer of 2009. These included: (1) test calls to 311; (2) participant observations and (3) focus groups with consumers. These analyses were undertaken in order to develop the types of insights that cannot be gleaned from quantitative analyses as well as to inform researchers of issues to explore further in the survey of individuals and families that were homeless that commenced in winter of 2009/10.",
-            "link" : "<a href=' https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e255/1365544000597/Qualitiative%20Reports%20summary%2011-10%20with%20corrections%20Jan2011.pdf'>Click for additional information</a>"
+            "link" : "<a href=' https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e255/1365544000597/Qualitiative%20Reports%20summary%2011-10%20with%20corrections%20Jan2011.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -1680,7 +1679,7 @@
         "attributes": {
             "Description": " The overall goal of the demonstration project was to break the cycle of homelessness by providing services in a coordinated fashion. This report documents lessons learned through demonstration projects fielded in the City of Chicago and Oak Park, August 2001 - December 2002. Five lessons were learned from the project: 1.) Supportive services break the cycle of homelessness. 2.) Supportive services boost treatment rates as much as 450%. 3.) Lack of affordable housing perpetuates homelessness. 4.) Stable employment is difficult but possible with consistent support over time. 5.) Stable funding is critical.",
 
-       "link" : "<a href='http://loyolacurl.squarespace.com/projects/united-power-for-action-and-justice-breaking-the-cycle-of-ho.html"
+       "link" : "<a href='http://loyolacurl.squarespace.com/projects/united-power-for-action-and-justice-breaking-the-cycle-of-ho.html' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 35.0
@@ -1693,7 +1692,7 @@
         "id": "6",
         "attributes": {
             "Description": "4750 North Sheridan Road Chicago, IL 60640, ",
-            "link" : "<a href='http://www.heartlandhealthoutreach.org/"
+            "link" : "<a href='http://www.heartlandhealthoutreach.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1716,7 +1715,7 @@
         "id": "82",
         "attributes": {
             "Description": "This is a report of the findings from a process evaluation of the Chicago Housing for Health Partnership. The Chicago Housing for Health Partnership (CHHP), a Housing First and Harm Reduction model, creates a new comprehensive system of health care, housing and supportive services. We found that key strengths of this project were its strong coordination and leadership from the lead agency and its success in harnessing the expertise and skills of the diverse partner agencies. This created a flexible system of allocating resources, solving problems, and serving clients..",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e16a/1365543983033/cchp2.pdf"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e16a/1365543983033/cchp2.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -1728,7 +1727,7 @@
         "id": "15",
         "attributes": {
             "Description": "4848 N Clark Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.united-power.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.united-power.org/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1751,7 +1750,7 @@
         "id": "10",
         "attributes": {
             "Description": "4946 N Sheridan Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1782,7 +1781,7 @@
         "id": "78",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b191e4b01c56e4d7e2d6/1365543988533/It's_ok_here.pdf"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b191e4b01c56e4d7e2d6/1365543988533/It's_ok_here.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -1803,7 +1802,7 @@
         "id": "3",
         "attributes": {
             "Description": "1532 N. Sedgwick Ave. Chicago, IL 60610, USA",
-            "link" : "<a href='http://www.deborahsplace.org/home'>Click for additional information</a>"  
+            "link" : "<a href='http://www.deborahsplace.org/home' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1865,7 +1864,7 @@
         "id": "13",
         "attributes": {
             "Description": "4707 N Malden Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1876,7 +1875,7 @@
         "id": "71",
         "attributes": {
             "Description": "This evaluation sought to gain an understanding of how Chicago's Plan has affected Chicago's homeless system and how those changes directly impacted the lives of the homeless residents it served. Working with various social service agencies that provide homelessness services, the research team evaluated the programs and models that were put into place under the Chicago Plan and provided data to make necessary mid-course corrections and improve implementation going forward. ",
-            "link" : "<a href='http://loyolacurl.squarespace.com/research-publications/evaluation-of-chicagos-10-year-plan-to-end-homelessness.html?rq\u003d10%20year'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/research-publications/evaluation-of-chicagos-10-year-plan-to-end-homelessness.html?rq\u003d10%20year' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 40.0
@@ -1907,7 +1906,7 @@
         "id": "0",
         "attributes": {
             "Description": "2750 West Roosevelt Road Chicago, IL 60608, USA",
-            "link" : "<a href='http://www.asafehaven.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.asafehaven.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -1928,7 +1927,7 @@
         "id": "64",
         "attributes": {
             "Description": "Housing First is a model for serving homeless individuals who have been dually diagnosed with substance use disorder and serious mental illness. In partnership with Heartland Alliance the study sought to: (1) Define the essential components of the Housing First model; (2) Develop a fidelity index for Housing First programming; (3) Test the finalized fidelity index for reliability and validity; and (4) Assess the degree to which fidelity predicts improved substance abuse treatment access for clients.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/housing-first-model-fidelity-and-implications-for-substance.html?rq\u003dfidelity'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/housing-first-model-fidelity-and-implications-for-substance.html?rq\u003dfidelity'>Click for additional information' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -1949,7 +1948,8 @@
         "id": "104",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e256/1365543999337/FINAL%20Provider%20Survey%20Report%2007182012.pdf'>Click for additional information</a>"         },
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e256/1365543999337/FINAL%20Provider%20Survey%20Report%2007182012.pdf' target='_blank'>Click for additional information</a>"
+        },
         "color": "rgb(255,0,255)",
         "size": 10.0
     }, {
@@ -1989,7 +1989,7 @@
         "id": "92",
         "attributes": {
             "Description": "This is a report of a 2-year collaborative study of homeless people aged 50 to 64 in Chicago between CURL and the Chicago Alliance to End Homelessness. This study had three goals: 1.) To obtain a demographic profile of people who are homeless in Chicago between the ages of 50 and 64; 2.) to understand how the various systems designed to serve this population do and do not meet their needs; and 3.) to begin to suggest a range of policy and programmatic responses to meet the needs of this population.",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e190/1365544006583/FinalTech.pdf'>Click for additional information</a>"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e190/1365544006583/FinalTech.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -2080,7 +2080,7 @@
         "id": "102",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e259/1365544000447/Presentation%20of%20Final%20Results%209-11.pdf'>Click for additional information</a>"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e259/1365544000447/Presentation%20of%20Final%20Results%209-11.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -2091,7 +2091,7 @@
         "id": "17",
         "attributes": {
             "Description": "721 N. LaSalle Chicago, IL 60654, USA",
-            "link" : "<a href='http://www.catholiccharities.net/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.catholiccharities.net/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2112,7 +2112,7 @@
         "id": "12",
         "attributes": {
             "Description": "4727 N Malden Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2153,7 +2153,7 @@
         "id": "63",
         "attributes": {
             "Description": "810 Vermont Avenue, NW Washington, DC 20420, USA",
-            "link" : "<a href='http://www.va.gov/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.va.gov/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2174,7 +2174,7 @@
         "id": "90",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e117/1365544003022/report_ccil.pdf'>Click for additional information</a>"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e117/1365544003022/report_ccil.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -2195,7 +2195,7 @@
         "id": "69",
         "attributes": {
             "Description": "The Chicago Christian Industrial League (CCIL or the League) was a long-standing social service agency located on the West Side of Chicago. It is how known as A Safe Haven. CCIL strove to challenge the effects of poverty in Chicago through its residential programs for formerly homeless single males and families. CCIL's residential programs consisted of classes, programs, and services such as employment, housing, education, and life skills training in order for residents to gain skills for future self-sufficiency and independence. CCIL partnered with the CURL to conduct an evaluation of CCIL's 18-month residential program.",
-           "link" : "<a href='http://loyolacurl.squarespace.com/projects/finding-stability-an-evaluation-of-graduates-of-chicago-chri.html?rq\u003dfinding%20stability'>Click for additional information</a>"  
+           "link" : "<a href='http://loyolacurl.squarespace.com/projects/finding-stability-an-evaluation-of-graduates-of-chicago-chri.html?rq\u003dfinding%20stability' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -2206,7 +2206,7 @@
         "id": "76",
         "attributes": {
             "Description": " Listening to the voices of current and former participants, staff, volunteers, and board members, this report attempts to capture the essence of the relationships of those women who built or participated in Deborah's Place. The qualitative research was conducted between January and July, 2001. Over that period of time, 39 persons were interviewed. Fifteen were individual in-depth interviews, while the remainder was part of focus groups. In some cases, individuals participated in a focus group and were interviewed separately. We also relied on the guidance of an additional 15 women who met with the researchers to provide background information at the beginning of the project.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/a-history-of-deborahs-place-an-organization-serving-women-wh.html?rq\u003dplace'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/a-history-of-deborahs-place-an-organization-serving-women-wh.html?rq\u003dplace' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -2227,7 +2227,7 @@
         "id": "106",
         "attributes": {
             "Description": " The evaluation was designed to help guide policy and management of Chicago's homeless system as it is related to youth. This report summarized data from in-depth opened ended qualitative interviews with 32 randomly selected youth housed in homeless youth housing programs conducted in 2011. At the time of the interviews there were 152 youth age 18 and older housed in one of the 13 housing programs in the homeless youth system. In addition, we have included data from three focus groups with youth conducted at an earlier stage of the Evaluation of the Plan to End Homelessness in the summer of 2009.",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e258/1365543999807/Final_Youth%20Report.pdf'>Click for additional information</a>"
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7e065/51e9b190e4b01c56e4d7e258/1365543999807/Final_Youth%20Report.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -2266,7 +2266,7 @@
         "id": "4",
         "attributes": {
             "Description": "1530  N. Sedgwick Ave. Chicago, IL 60610, USA",
-            "link" : "<a href='http://www.deborahsplace.org/home'>Click for additional information</a>"  
+            "link" : "<a href='http://www.deborahsplace.org/home' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2287,7 +2287,7 @@
         "id": "9",
         "attributes": {
             "Description": "5042 N Winthrop Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2328,7 +2328,7 @@
         "id": "67",
         "attributes": {
             "Description": "651 W. Washington, Suite 504 Chicago, IL 60661, USA",
-            "link" : "<a href='http://www.thechicagoalliance.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.thechicagoalliance.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2349,7 +2349,7 @@
         "id": "7",
         "attributes": {
             "Description": "3150 N Racine Chicago, IL 60657, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2360,7 +2360,7 @@
         "id": "11",
         "attributes": {
             "Description": "5012 N Winthrop Chicago, IL 60640, USA",
-            "link" : "<a href='http://www.mercyhousing.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.mercyhousing.org/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2371,7 +2371,7 @@
         "id": "73",
         "attributes": {
             "Description": "CURL, in collaboration with the Chicago Alliance to End Homelessness embarked on a project to better understand the stories and the needs of Chicago's aging population. The report's findings include: 1.) employable older individuals find challenges to work; 2.) veterans are unable to access benefits; and 3.) the safety net of social welfare programs fail this population. Recommendations: 1.) a stronger partnership between public and private agencies that serve people who are homeless and the aging; 2.) the enactment of state universal paid sick time; 3.) expanding job training programs for individuals over 48; 5.) improving access to SSI benefits.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/homeless-over-50-the-graying-of-chicagos-homeless-population.html?rq\u003d50'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/homeless-over-50-the-graying-of-chicagos-homeless-population.html?rq\u003d50' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 30.0
@@ -2422,7 +2422,7 @@
         "id": "5",
         "attributes": {
             "Description": "2822 W. Jackson Blvd. Chicago, IL 60612, USA",
-            "link" : "<a href='http://www.deborahsplace.org/home'>Click for additional information</a>"  
+            "link" : "<a href='http://www.deborahsplace.org/home' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2443,7 +2443,7 @@
         "id": "97",
         "attributes": {
             "Description": "1456 W. Oakdale Ave. Chicago, IL 60657, USA",
-            "link" : "<a href='http://www.deborahsplace.org/home'>Click for additional information</a>"  
+            "link" : "<a href='http://www.deborahsplace.org/home' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2464,7 +2464,7 @@
         "id": "18",
         "attributes": {
             "Description": "1607 West Howard Street Chicago, IL 60626, USA",
-            "link" : "<a href='http://www.how-inc.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.how-inc.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2475,7 +2475,7 @@
         "id": "98",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='http://static1.squarespace.com/static/51e86261e4b00dfa7317c09b/t/5570c129e4b06ce94fb1ee4a/1433452841637/First+Wave+Quantitative+Survey+Results+Nov2010+with+corrections+Jan2011.pdf'>Click for additional information</a>"  
+            "link" : "<a href='http://static1.squarespace.com/static/51e86261e4b00dfa7317c09b/t/5570c129e4b06ce94fb1ee4a/1433452841637/First+Wave+Quantitative+Survey+Results+Nov2010+with+corrections+Jan2011.pdf' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,255)",
         "size": 10.0
@@ -2506,7 +2506,7 @@
         "id": "2",
         "attributes": {
             "Description": "2111 W. Lexington Street Chicago, IL 60612, USA",
-            "link" : "<a href='http://www.cityofchicago.org/city/en/depts/311/supp_info/311calltips.html'>Click for additional information</a>"  
+            "link" : "<a href='http://www.cityofchicago.org/city/en/depts/311/supp_info/311calltips.html' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2517,7 +2517,7 @@
         "id": "66",
         "attributes": {
             "Description": "In a partnership with the Chicago Alliance to End Homelessness and other service and advocacy organizations, CURL and photographer Noah Addis organized this exhibition to present positive images of individuals moving from homelessness to housing. The exhibition was displayed at LUMA (Loyola University Museum of Art) for six months during 2011 and 2012. The photos are currently on display at CURL's office in Cuneo Hall on the Lake Shore Campus. The exhibition confronts the dominant stereotypes that homeless individuals are helpless street beggars or that organizations serving them are just providing handouts without addressing long-term solutions.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/pathways-to-stable-housing-photo-exhibit/?rq\u003dpathways%20to%20stable'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/pathways-to-stable-housing-photo-exhibit/?rq\u003dpathways%20to%20stable' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -2538,7 +2538,8 @@
         "id": "108",
         "attributes": {
             "Description": "N/A",
-            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e189/1365543969043/Policy_Brief.pdf'>Click for additional information</a>"         },
+            "link" : "<a href='https://static.squarespace.com/static/51e86261e4b00dfa7317c09b/51e9b18fe4b01c56e4d7dfc9/51e9b190e4b01c56e4d7e189/1365543969043/Policy_Brief.pdf' target='_blank'>Click for additional information</a>"
+        },
         "color": "rgb(255,0,255)",
         "size": 10.0
     }, {
@@ -2568,7 +2569,7 @@
         "id": "85",
         "attributes": {
             "Description": "721 N. LaSalle St. Chicago, IL 60654, USA",
-            "link" : "<a href='http://www.catholiccharities.net/services/homelessness'>Click for additional information</a>"  
+            "link" : "<a href='http://www.catholiccharities.net/services/homelessness' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2579,7 +2580,7 @@
         "id": "65",
         "attributes": {
             "Description": "208 S. LaSalle Street, Suite 1818 Chicago, IL 60604, USA",
-            "link" : "<a href='http://www.heartlandalliance.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.heartlandalliance.org/' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2590,7 +2591,7 @@
         "id": "94",
         "attributes": {
             "Description": "This study aimed to develop a better understanding of issues related to stigma of clients who are receiving services from one of two permanent supportive housing programs run by the AIDS Foundation of Chicago (AFC). Clients of each of these programs reported to AFC that they have perceived stigma directed towards them from landlords within the past year. AFC requested a partnership with the CURL to investigate this phenomenon to inform the development of more appropriate interventions to address the problem. An internal report was produced.",
-            "link" : "<a href='http://loyolacurl.squarespace.com/projects/understanding-landlord-related-issues-in-permanent-supported.html?rq\u003dlandlord'>Click for additional information</a>"  
+            "link" : "<a href='http://loyolacurl.squarespace.com/projects/understanding-landlord-related-issues-in-permanent-supported.html?rq\u003dlandlord' target='_blank'>Click for additional information</a>"
         },
         "color": "rgb(255,0,0)",
         "size": 20.0
@@ -2601,7 +2602,7 @@
         "id": "14",
         "attributes": {
             "Description": "7750 S. Emerald Chicago, IL 60620, USA",
-            "link" : "<a href='http://www.stleoveterans.com/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.stleoveterans.com/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2612,7 +2613,7 @@
         "id": "16",
         "attributes": {
             "Description": "969 E. 60th Street Chicago, IL 60637, USA",
-            "link" : "<a href='http://ssa.uchicago.edu/'>Click for additional information</a>"  
+            "link" : "<a href='http://ssa.uchicago.edu/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2633,7 +2634,7 @@
         "id": "22",
         "attributes": {
             "Description": "48 N Hoyne Ave Chicago, IL 60612, USA",
-            "link" : "<a href='http://slministries.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://slministries.org/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0
@@ -2644,7 +2645,7 @@
         "id": "21",
         "attributes": {
             "Description": "1851 S 9th Ave Maywood, IL 60153, USA",
-            "link" : "<a href='http://www.westsuburbanpads.org/'>Click for additional information</a>"  
+            "link" : "<a href='http://www.westsuburbanpads.org/' target='_blank'>Click for additional information</a>" 
         },
         "color": "rgb(255,200,0)",
         "size": 10.0

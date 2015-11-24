@@ -3,12 +3,12 @@
   "version": "1.0",
   "data": "data.json",
   "logo": {
-    "text": "Heather Meyer, Katharine Herringshaw",
+    "text": "",
     "file": "CURL",
     "link": "http://www.luc.edu/curl/"
   },
   "text": {
-    "title": "CURL - Homelessness Project",
+    "title": "Ending Homelessness in Chicago: CURL's Multiple Projects",
     "more": "CURL is comprised of the following Team members: \n\nAdvisory Board\nThe Advisory Board is comprised of both faculty and community organization representatives, reflecting the collaborative nature of CURL\u0027s research activities.\n\nAffiliated Community Organizational Partners\nCURL works with a variety of community partners in our ongoing work.  These are organizations with whom we are currently partnering or have partnered in the past.\n\nFaculty\nCURL relies on faculty from a broad range of schools and disciplines in completing its work.\n\nFellows\nUndergraduate, Graduate, Community, and Faculty fellows collaborate with CURL.\n\nStaff and Visiting Scholars\nWith the creation of CURL, Loyola University Chicago greatly increased its commitment to university/community partnerships in the rebuilding of Chicago\u0027s neighborhoods. This partnership is further strengthened through its staff which reflects the capabilities and knowledge base of both the academic and community experiences.",
     "intro": "CURL projects are developed with community-based organizations across metropolitan Chicago. The projects relate to a wide range of issues including: homelessness, welfare reform, hunger and nutrition, community health, safety, childcare, affordable housing, job training and placement and domestic violence."
   },
